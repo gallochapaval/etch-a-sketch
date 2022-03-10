@@ -1,0 +1,53 @@
+html {
+    /* footer support */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    /*background-color: black;
+
+    /* footer support */
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.etchContainer {
+    display: grid;
+    width: 50vh;
+    height: 50vh;
+    background-color: white;
+}
+
+.reStart {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    text-shadow: 0 0 .5rem black;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+
+  
